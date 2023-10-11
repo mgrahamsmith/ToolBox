@@ -3,4 +3,5 @@ Copy Files Example
 ================================================================================
 
 Example::
-    > py copy_files.py src_dir dest_dir
+
+    toolbox\python\copy_files> py copy_files.py src_dir dest_dir
