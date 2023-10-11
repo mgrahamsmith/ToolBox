@@ -8,12 +8,20 @@
 ################################################################################
 
 import argparse
+from shutil import copytree, ignore_patterns
+
 
 parser = argparse.ArgumentParser(description='Copy files from one directory to another.')
-parser.add_argument("-s", "--source", help="The directory to be copied from.")
-parser.add_argument("-d", "--dest", help="The directory to be copied to.")
+parser.add_argument("src", help="The directory to be copied from.")
+parser.add_argument("dest", help="The directory to be copied to.")
 args = parser.parse_args()
 
 print(f"Source directory: {args.src}" )
 print(f"Destination: {args.dest}" )
 
+# With dirs_exist_ok set to True, the copying operation will continue if it
+# encounters existing directories, and files within the dest tree will be
+# overwritten by corresponding files from the src tree.
+copytree(args.src, args.dest, ignore=ignore_patterns('*.pyc', 'tmp*'),
+    dirs_exist_ok = True
+    )
