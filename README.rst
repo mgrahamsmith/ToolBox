@@ -4,7 +4,7 @@ ToolBox
 A repository for useful and reusable code snippets.
 
 * `Windows Batch Scripts`_
-* `Python Samples`_
+* `Python`_
 
 .. _Windows Batch Scripts: batch/README.rst
-.. _Python Samples: python/README.rst
+.. _Python: python/README.rst
