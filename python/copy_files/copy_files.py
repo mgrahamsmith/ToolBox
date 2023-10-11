@@ -10,11 +10,10 @@
 import argparse
 
 parser = argparse.ArgumentParser(description='Copy files from one directory to another.')
-parser.add_argument('integers', metavar='N', type=int, nargs='+',
-                    help='an integer for the accumulator')
-parser.add_argument('--sum', dest='accumulate', action='store_const',
-                    const=sum, default=max,
-                    help='sum the integers (default: find the max)')
-
+parser.add_argument("-s", "--source", help="The directory to be copied from.")
+parser.add_argument("-d", "--dest", help="The directory to be copied to.")
 args = parser.parse_args()
-print(args.accumulate(args.integers))
+
+print(f"Source directory: {args.src}" )
+print(f"Destination: {args.dest}" )
+

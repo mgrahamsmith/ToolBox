@@ -8,4 +8,4 @@ File Operations
 ********************************************************************************
 * `copy_files.py`_: Recursively copy files from one directory to another.
 
-.. _copy_files.py: ./copy_files.py
+.. _copy_files.py: ./copy_files/copy_files.py
