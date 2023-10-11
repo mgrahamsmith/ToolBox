@@ -1,4 +1,3 @@
-
 :: Check if file / folder exists:
 @echo off 
 if exist folder_name (
