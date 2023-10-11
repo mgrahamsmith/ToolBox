@@ -1,7 +1,7 @@
 #######
 ToolBox
 #######
-A repository for useful, reusable code snippets in various languages.
+A repository for useful and reusable code snippets.
 
 * `Windows Batch Scripts`_
 * `Python Samples`_
