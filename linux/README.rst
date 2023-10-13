@@ -57,9 +57,6 @@ Bash commands for getting Linux host system info.
 Linux Documentation
 --------------------------------------------------------------------------------
 
-From `this response <https://unix.stackexchange.com/questions/658427/offline-documentation-of-kernel-org>`_
-on StackExchange:
-
 Pull in relevant kernel documentation package (Debian): ::
     
     sudo apt install linux-doc
