@@ -1,12 +1,12 @@
 ================================================================================
-Batch Scripts
+Bash Shell
 ================================================================================
 
-Useful samples for Windows Batch scripts.
+Useful samples for using bash shell and bash scripts.
 
 Samples
 --------------------------------------------------------------------------------
 
-* `snippets.bat`_: Miscellanious Batch script samples.  See comments for explanation.
+* `snippets.sh`_: Miscellanious bash shell samples.  See comments for explanation.
 
-.. _snippets.bat: ./snippets.bat
+.. _snippets.sh: ./snippets.sh
