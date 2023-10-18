@@ -11,7 +11,7 @@ A repository for useful and reusable code samples.
 * `CMake`_
 
 .. _Bash Shell: bash/README.rst
-.. _Wnidows: windows/README.rst
+.. _Windows: windows/README.rst
 .. _Linux: linux/README.rst
 .. _Python: python/README.rst
 .. _reStructuredText: reStructuredText/README.rst
