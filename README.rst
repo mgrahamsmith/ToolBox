@@ -1,7 +1,7 @@
 ================================================================================
 ToolBox
 ================================================================================
-A repository for useful and reusable code.
+A repository for useful and reusable code samples.
 
 * `Bash Shell`_
 * `Windows`_

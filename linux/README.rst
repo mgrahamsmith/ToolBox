@@ -2,7 +2,7 @@
 Linux
 ================================================================================
 
-Useful tools, tips, and bash commands for Linux.
+Useful tools, tips, and Bash commands for Linux.
 
 .. contents::
 
@@ -10,7 +10,7 @@ Useful tools, tips, and bash commands for Linux.
 Miscellanious
 --------------------------------------------------------------------------------
 
-* Compressing / uncompressing :code:`.gz` files`: ::
+* Compressing / uncompressing :code:`.gz` files in Bash: ::
 
     $ gzip -h
     Usage: gzip [OPTION]... [FILE]...
@@ -19,24 +19,6 @@ Miscellanious
     Example: ::
 
         $ gzip -d file.gz
-
-Linux Documentation
---------------------------------------------------------------------------------
-
-From `this response <https://unix.stackexchange.com/questions/658427/offline-documentation-of-kernel-org>`_
-on StackExchange:
-
-Pull in relevant kernel documentation package (Debian): ::
-    
-    sudo apt install linux-doc
-
-You’ll find all the documentation in text and HTML formats under :code:`/usr/share/doc/linux-doc/Documentation/`
-and :code:`/usr/share/doc/linux-doc/html/` respectively.
-
-Source: see `this response <https://unix.stackexchange.com/questions/658427/offline-documentation-of-kernel-org>`_
-on StackExchange.
-
-.. note:: TODO: add notes on how to build in Ubuntu 22.04.
 
 
 Getting Host System Information
@@ -70,3 +52,19 @@ Bash commands for getting Linux host system info.
     BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
     PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
     UBUNTU_CODENAME=jammy
+
+
+Linux Documentation
+--------------------------------------------------------------------------------
+
+Pull in relevant kernel documentation package (Debian): ::
+    
+    sudo apt install linux-doc
+
+You’ll find all the documentation in text and HTML formats under :code:`/usr/share/doc/linux-doc/Documentation/`
+and :code:`/usr/share/doc/linux-doc/html/` respectively.
+
+Source: see `this response <https://unix.stackexchange.com/questions/658427/offline-documentation-of-kernel-org>`_
+on StackExchange.
+
+    TODO: add notes on how to build in Ubuntu 22.04.
