@@ -62,15 +62,18 @@ Section heading convention from `reStructuredText markup`_.
 Paragraph-level markup
 --------------------------------------------------------------------------------
 
-.. note::
+Take it away, Eric the Orchestra Leader!
 
-   An especially important bit of information about an API that a user should be
-   aware of when using whatever bit of API the note pertains to.  The content of
-   the directive should be written in complete sentences and include all
-   appropriate punctuation.
-
-   Example::
-
-      .. note::
-
-         This function is not suitable for sending spam e-mails.
+| A one, two, a one two three four
+|
+| Half a bee, philosophically,
+|     must, *ipso facto*, half not be.
+| But half the bee has got to be,
+|     *vis a vis* its entity.  D'you see?
+|
+| But can a bee be said to be
+|     or not to be an entire bee,
+|         when half the bee is not a bee,
+|             due to some ancient injury?
+|
+| Singing...
