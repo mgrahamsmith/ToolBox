@@ -15,4 +15,4 @@ Samples
 Miscellaneous
 --------------------------------------------------------------------------------
 
-In Linux, to signal EOF from Bash shell: :code:`Ctrl-D`
+To signal EOF from Bash shell: :code:`Ctrl-D`
