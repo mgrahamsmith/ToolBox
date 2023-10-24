@@ -104,3 +104,8 @@ Example: ::
 
     $ gzip -d file.gz
 
+
+Signal EOF from Bash
+^^^^^^^^^^^^^^^^^^^^
+
+To signal EOF from Bash shell: :code:`Ctrl-D`
