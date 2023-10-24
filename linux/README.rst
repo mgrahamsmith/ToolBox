@@ -7,6 +7,12 @@ Useful tools, tips, and Bash commands for Linux.
 .. contents::
 
 
+Getting Started
+--------------------------------------------------------------------------------
+
+Open a terminal: **Ctrl + Alt + T**
+
+
 Give User Sudo Abilities
 --------------------------------------------------------------------------------
 When trying to run :code:`sudo apt-get update`, the resulting output was: ::
