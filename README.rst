@@ -1,7 +1,7 @@
 ================================================================================
-ToolBox
+Tool Box
 ================================================================================
-A repository for useful and reusable code samples.
+A repository for useful tools, tips, and reusable code samples.
 
 * `Bash Shell`_: Useful samples for using bash shell and bash scripts.
 * `CMake`_: Useful samples for CMake.
