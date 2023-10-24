@@ -4,11 +4,13 @@ Windows
 
 Useful samples for Windows Command Prompt, Powershell, and Batch scripts.
 
+.. contents ::
 
-Powershell
+
+PowerShell
 --------------------------------------------------------------------------------
 
-See `Learning Powershell - Introdution <https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction?view=powershell-7.3>`_
+See `Learning PowerShell: Introdution <https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction?view=powershell-7.3>`_
 
 Useful Commands
 ^^^^^^^^^^^^^^^
