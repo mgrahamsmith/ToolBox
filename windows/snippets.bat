@@ -25,3 +25,8 @@ if exist folder_name (
 if [ -f "/proc/sys/fs/binfmt_misc/WSLInterop" ]; then
    . "$HOME/.bash.d/wsl"
 fi
+
+if [ -f "/etc/wsl.conf" ]; then
+   . "$HOME/.bash.d/wsl"
+fi
+
