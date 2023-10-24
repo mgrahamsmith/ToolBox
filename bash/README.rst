@@ -4,6 +4,9 @@ Bash Shell
 
 Useful samples for using bash shell and bash scripts.
 
+.. contents ::
+
+
 Samples
 --------------------------------------------------------------------------------
 
