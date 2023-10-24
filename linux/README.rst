@@ -7,18 +7,36 @@ Useful tools, tips, and Bash commands for Linux.
 .. contents::
 
 
-Miscellanious
+Give User Sudo Abilities
 --------------------------------------------------------------------------------
+When trying to run :code:`sudo apt-get update`, the resulting output was: ::
 
-* Compressing / uncompressing :code:`.gz` files in Bash: ::
+    user_name is not in the sudoers file.  This incident will be reported.
 
-    $ gzip -h
-    Usage: gzip [OPTION]... [FILE]...
-    Compress or uncompress FILEs (by default, compress FILES in-place).
+See `this solution <https://stackoverflow.com/questions/47806576/linux-username-is-not-in-the-sudoers-file-this-incident-will-be-reported>`_
+for more context.
 
-    Example: ::
+At the top of the aforementioned /etc/sudoers file there's an info: ::
 
-        $ gzip -d file.gz
+    "## This file MUST be edited with the 'visudo' command as root."
+
+In order of doing as we're told, use: ::
+
+    $ su
+    > Enter root password: *******
+    $ visudo -f /etc/sudoers
+
+Find the following section of /etc/sudoers file and add your users privileges: ::
+
+    # User privilege specification
+    root    ALL=(ALL:ALL) ALL
+    user_name ALL=(ALL) ALL
+
+Save the file (press esc and type :x if vim is your default text editor, for nano press ctrl+o, enter and then ctrl+x).
+
+Type exit to turn off the root shell, and enjoy the power of sudo with your username
+
+
 
 
 Getting Host System Information
@@ -68,3 +86,21 @@ Source: see `this response <https://unix.stackexchange.com/questions/658427/offl
 on StackExchange.
 
     TODO: add notes on how to build in Ubuntu 22.04.
+
+
+Miscellanious
+--------------------------------------------------------------------------------
+
+Compressing / uncompressing :code:`.gz` files in Bash
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+::
+
+    $ gzip -h
+    Usage: gzip [OPTION]... [FILE]...
+    Compress or uncompress FILEs (by default, compress FILES in-place).
+
+Example: ::
+
+    $ gzip -d file.gz
+
