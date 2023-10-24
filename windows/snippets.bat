@@ -23,10 +23,6 @@ if exist folder_name (
 :: Source: https://superuser.com/questions/1749781/how-can-i-check-if-the-environment-is-wsl-from-a-shell-script
 
 if [ -f "/proc/sys/fs/binfmt_misc/WSLInterop" ]; then
-   . "$HOME/.bash.d/wsl"
-fi
-
-if [ -f "/etc/wsl.conf" ]; then
-   . "$HOME/.bash.d/wsl"
+   echo "Running in a WSL environment!"
 fi
 
