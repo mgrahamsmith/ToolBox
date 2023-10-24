@@ -19,7 +19,7 @@ From the "View" dropdown > "Virtual Screen 1" > "Scale to 200%", then > "Resize
 to 1920 x 1200" (the highest res option available).
 
 
-Controlling VirtualBox from the Powershell
+Controlling VirtualBox from the PowerShell
 --------------------------------------------------------------------------------
 
 Make sure the location of :code:`VBoxManage.exe` is added to the Windows PATH: ::
