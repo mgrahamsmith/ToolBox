@@ -9,7 +9,7 @@ A repository for useful and reusable code samples.
 * `Linux`_: Useful tools, tips, and Bash commands for Linux.
 * `Python`_: Useful programs and samples for Python.
 * `reStructuredText`_: Useful reStructuredText (:code:`.rst`) markup samples.
-* `VirtualBox_`: Utilities for `Oracle VM VirtualBox <https://www.virtualbox.org/>`_.
+* `VirtualBox`_: Utilities for `Oracle VM VirtualBox <https://www.virtualbox.org/>`_.
 * `Windows`_: Useful samples for Windows Command Prompt, Powershell, and Batch scripts.
 
 .. _Bash Shell: bash/README.rst
