@@ -14,10 +14,15 @@ Useful Commands
 ^^^^^^^^^^^^^^^
 
 * Get environment path variables: :code:`> $Env:path`
+
 * What version of PowerShell am I running? :code:`> $PSVersionTable`
+
 * :code:`Get-Command`: 
-* :code:`Get-Help`: Helps you learn how to use commands once you find them.
-    * Example: :code:`>Get-Help -Name Get-Help
+
+* :code:`Get-Help`: Helps you learn how to use commands once you find them. ::
+
+   > Get-Help -Name Get-Help
+
 * :code:`Get-Member`: 
 
 
