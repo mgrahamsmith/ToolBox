@@ -45,4 +45,7 @@ Samples
 Miscellanious
 --------------------------------------------------------------------------------
 
+Signal EOF from Command Prompt
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 In Windows, to signal EOF from command prompt: :code:`Ctrl-Z` + :code:`Enter`
