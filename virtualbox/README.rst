@@ -5,6 +5,20 @@ Oracle VM VirtualBox
 Utilities for `Oracle VM VirtualBox <https://www.virtualbox.org/>`_.
 
 
+Fix Screen Resolution
+--------------------------------------------------------------------------------
+
+Running Ubuntu-18.04.
+
+I have a high resolution screen (3840 x 2160).  Default settings for VirtualBox
+look pretty terrible, but I fixed them easily by clicking "View" in the
+VitrualBox window (must be in windowed mode: **Host + F**.  **Host** is defined as
+**Right Ctrl** by default).
+
+From the "View" dropdown > "Virtual Screen 1" > "Scale to 200%", then > "Resize
+to 1920 x 1200" (the highest res option available).
+
+
 Controlling VirtualBox from the Command Line
 --------------------------------------------------------------------------------
 
@@ -30,3 +44,5 @@ VirtualBox Extension Pack package, which you can download from the `Oracle VM
 VirtualBox download page <https://www.virtualbox.org/wiki/Downloads>`_. ::
 
     > VBoxManage modifyvm OracleLinux6Test --vrde on
+
+    TODO: Incomplete, add instructions for ssh access to running VM.
