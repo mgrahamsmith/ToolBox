@@ -2,7 +2,7 @@
 Bash Shell
 ================================================================================
 
-Useful samples for using bash shell and bash scripts.
+Useful commands and sample scripts for Bash.
 
 .. contents ::
 
