@@ -3,7 +3,7 @@ Tool Box
 ================================================================================
 A repository for useful tools, tips, and reusable code samples.
 
-* `Bash Shell`_: Useful samples for using bash shell and bash scripts.
+* `Bash Shell`_: Useful commands and sample scripts for Bash.
 * `CMake`_: Useful samples for CMake.
 * `C++`_: Useful programs and samples for C++.
 * `Linux`_: Useful tools, tips, and Bash commands for Linux.
