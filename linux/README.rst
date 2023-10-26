@@ -7,12 +7,6 @@ Useful tools, tips, and Bash commands for Linux, Ubuntu distribution.
 .. contents::
 
 
-Getting Started
---------------------------------------------------------------------------------
-
-Open a terminal: **Ctrl + Alt + T**
-
-
 Getting Host System Information
 --------------------------------------------------------------------------------
 
@@ -94,6 +88,10 @@ on StackExchange.
 
 Miscellanious
 --------------------------------------------------------------------------------
+
+Open a terminal
+^^^^^^^^^^^^^^^
+**Ctrl + Alt + T**
 
 Compressing / uncompressing :code:`.gz` files in Bash
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
