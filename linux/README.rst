@@ -13,17 +13,17 @@ Getting Host System Information
 Bash commands for getting Linux host system info.
 
 
-* :code:`uname -a` - print system information ::
+* Print system information ::
 
     $ uname -a
     Linux hostname 5.15.90.1-microsoft-standard-WSL2 #1 SMP Fri Jan 27 02:56:13 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 
-* :code:`/proc/version` ::
+* Print Linux version info: ::
 
     $ cat /proc/version
     Linux version 5.15.90.1-microsoft-standard-WSL2 (oe-user@oe-host) (x86_64-msft-linux-gcc (GCC) 9.3.0, GNU ld (GNU Binutils) 2.34.0.20200220) #1 SMP Fri Jan 27 02:56:13 UTC 2023
     
-* :code:`/etc/os-release` ::
+* Print Linux distribution info: ::
 
     $ cat /etc/os-release
     PRETTY_NAME="Ubuntu 22.04.2 LTS"
@@ -102,7 +102,7 @@ Compressing / uncompressing :code:`.gz` files in Bash
     Usage: gzip [OPTION]... [FILE]...
     Compress or uncompress FILEs (by default, compress FILES in-place).
 
-Example: ::
+Example (decompress :code:`file.gz`): ::
 
     $ gzip -d file.gz
 
