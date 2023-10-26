@@ -18,6 +18,13 @@ Samples
 Miscellaneous
 --------------------------------------------------------------------------------
 
+Redirect STDERR to STDOUT
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To redirect STDERR to STDOUT, you have to add :code:`2>&1` at the end of each line: ::
+
+  echo "Error occurred" >> log.file 2>&1
+
 Signal EOF from Bash
 ^^^^^^^^^^^^^^^^^^^^
 
