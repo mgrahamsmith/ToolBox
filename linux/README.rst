@@ -113,3 +113,11 @@ Signal EOF from Bash
 ^^^^^^^^^^^^^^^^^^^^
 
 To signal EOF from Bash shell: :code:`Ctrl-D`
+
+
+
+
+TODO
+--------------------------------------------------------------------------------
+
+* Add notes on how to build in Ubuntu 22.04.
