@@ -4,6 +4,7 @@ Oracle VM VirtualBox
 
 Utilities for `Oracle VM VirtualBox <https://www.virtualbox.org/>`_.
 
+.. contents ::
 
 Fix Screen Resolution
 --------------------------------------------------------------------------------
@@ -41,8 +42,12 @@ Starting a VM on a Headless Server
 Oracle VM VirtualBox provides remote machine display through the VirtualBox
 Remote Desktop Extension (VRDE) interface implemented within the Oracle VM
 VirtualBox Extension Pack package, which you can download from the `Oracle VM
-VirtualBox download page <https://www.virtualbox.org/wiki/Downloads>`_. ::
+VirtualBox download page <https://www.virtualbox.org/wiki/Downloads>`_.
 
-    > VBoxManage modifyvm OracleLinux6Test --vrde on
+:code:`> VBoxManage modifyvm OracleLinux6Test --vrde on`
 
-    TODO: Incomplete, add instructions for ssh access to running VM.
+
+TODO
+--------------------------------------------------------------------------------
+
+* Add instructions for ssh access to running VM.
